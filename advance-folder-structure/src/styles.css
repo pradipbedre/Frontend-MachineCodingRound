@@ -1,0 +1,18 @@
+* {
+  padding: 10;
+  margin: 10;
+}
+.folder {
+  background-color: rgb(240, 236, 248);
+  padding: 3px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.folder__buttons > button {
+  margin-left: 5px;
+}
+.file {
+  margintop: 5px;
+}

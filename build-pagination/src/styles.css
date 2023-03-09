@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App__posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.App_posts_post {
+  width: 27%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.App__posts__post__heading {
+}
+.App__posts__post__body {
+}
+
+/* paginatin style  */
+.App__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App__pagination__left {
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.App__pagination__number {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.App__pagination__right {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#active__page {
+  background-color: blue;
+  color: white;
+}
+
+

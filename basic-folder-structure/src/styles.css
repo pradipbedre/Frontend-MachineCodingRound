@@ -1,0 +1,9 @@
+.folder {
+  background-color: rgb(240, 236, 248);
+  padding: 3px;
+  width: 250px;
+}
+
+.file {
+  margintop: 5px;
+}
